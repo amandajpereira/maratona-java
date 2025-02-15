@@ -12,6 +12,9 @@ public class TiposPrimitivos {
         boolean verdadeiro = true;
         boolean falso = false;
         char caractere = 'F';
+        String nome = "Amanda Pereira";
+        System.out.println(nome);
+
 
 
     }
