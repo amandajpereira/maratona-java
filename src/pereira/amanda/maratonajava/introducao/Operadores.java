@@ -17,5 +17,26 @@ public class Operadores {
         boolean isDezMaiorQueVinte = 10 > 20;
         System.out.println("isDezMaiorQueVinte " +isDezMaiorQueVinte );
 
+        boolean isDezMenorQueVinte = 10 < 20;
+        System.out.println("isDezMenorQueVinte " +isDezMenorQueVinte );
+
+        boolean isDezIgualAVinte = 10 == 20;
+        System.out.println("isDezIgualAVinte " +isDezIgualAVinte );
+
+        boolean isDezDiferenteDeVinte = 10 != 20;
+        System.out.println("isDezDiferenteDeVinte " +isDezDiferenteDeVinte );
+
+    if (numero01 == 10 && numero02 == 20){
+
+    }
+
+        numero01 = 10;
+        numero01 += 5; // Agora numero = 15
+        numero01 *= 2; // Agora numero = 30
+        numero01 -= 10; // Agora numero = 20
+        numero01 /= 2; // Agora numero = 10
+        numero01 %= 3; // Agora numero = 1
+        System.out.println(numero01); // Saída: 1
+
     }
 }
