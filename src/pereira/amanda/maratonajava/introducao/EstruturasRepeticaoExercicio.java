@@ -32,6 +32,11 @@ public class EstruturasRepeticaoExercicio {
             System.out.println("Parcela " + parcela + "R$ " + valorParcela);
         }
 
-
+        for (int i = 1; i <= 5; i++) {
+            if (i == 3) {
+                continue;  // Pula a iteração quando i é igual a 3
+            }
+            System.out.println(i);
+        }
     }
 }
