@@ -9,5 +9,13 @@ public class EstruturasRepeticaoExercicio {
                 System.out.println(i);
             }
         }
+
+        //Imprima os primeiros 5 números de 0 até 10
+        for(int i = 0; i <= 10; i++){
+            if(i <= 5){
+                System.out.println(i);
+            }
+
+        }
     }
 }
