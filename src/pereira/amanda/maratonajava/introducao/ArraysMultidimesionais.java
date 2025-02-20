@@ -16,11 +16,19 @@ public class ArraysMultidimesionais {
             System.out.println(); // Pula para a próxima linha
         }
 
-        for(int[] arrBase : matriz ) {
+        for (int[] arrBase : matriz) {
             for (int num : arrBase) {
                 System.out.println(num);
             }
         }
+
+        int[][] arrayInt = new int[2][3];
+        for (int[] arrayBase : arrayInt) {
+            for (int num : arrayBase) {
+                System.out.println(num);
+            }
+        }
+
 
     }
 }
