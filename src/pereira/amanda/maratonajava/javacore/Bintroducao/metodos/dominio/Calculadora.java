@@ -14,4 +14,7 @@ public class Calculadora {
         System.out.println(10 - 5);
     }
 
+    public void multiplicaDoisNumeros (int num1, int num2) {
+        System.out.println(num1 * num2);
+    }
 }
