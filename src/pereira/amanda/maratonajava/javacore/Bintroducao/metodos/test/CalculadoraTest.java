@@ -11,6 +11,9 @@ public class CalculadoraTest {
         calculadora.multiplicaDoisNumeros(2,2);
         double result = calculadora.divideDoisNumeros(10,5);
         System.out.println(result);
+        int[] numeros = {1,2,3,4,5};
+        calculadora.somaArray(numeros);
+        calculadora.somaVarArgs(1,2,3,4,5,6);
 
 
     }
