@@ -7,7 +7,4 @@ public class ExemploParametrosReferencia {
     public String sexo;
     public String especie; // Indica se é cachorro, gato etc.
 
-    public void latir() {
-        System.out.println(nome + " está latindo!");
-    }
 }
